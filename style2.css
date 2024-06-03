@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: #322f2f;
+}
+
+/* .logoa{
+  width: 120px;
+  height: 110px;
+} */
+
+.logoa img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+
+  list-style-type: none;
+  color: coral;
+  margin-top: 10px;
+  position: static;
+
+}
+
+.nav {
+  justify-content: right;
+  margin-left: auto;
+  margin-top: 10PX;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  height: 100px;
+  /* justify-content: space-between; */
+  display: flex;
+  background-color: #1a1919;
+  /* margin: -8px;
+  height:110px; */
+  position: sticky;
+}
+
+#about {
+  font-size: 18px;
+}
+
+#conta {
+  padding-left: 23px;
+  font-size: 18px;
+
+}
+
+
+#Ter {
+  padding-left: 23px;
+  font-size: 18px;
+
+}
+
+#log {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+#log a {
+
+  margin-right: 40px;
+  color: coral;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: black;
+  border: 1px solid coral;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/* #logins{
+  justify-content: right;
+  margin-right: 50px;
+  margin-left:auto;
+} */
+.login {
+  width: 535px;
+  height: 375px;
+  margin-left: 90px;
+  padding: 20px;
+  border: 1px solid coral;
+  border-radius: 5px;
+  text-align: center;
+  /* border-radius: 5px;
+  border-width: 5px;
+  weight:100px;
+  padding:20px; */
+}
+
+#makan {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.wide,
+.wide1 {
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.wide2,
+.wide3,
+.pass {
+  background-color: white;
+  width: 412px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.butlog1 {
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: coral;
+  width: 412px;
+  height: 40px;
+  border-color: #coral;
+  color: black;
+  border-radius: 5px;
+}
+
+.butlog1:hover {
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: black;
+  width: 412px;
+  height: 40px;
+  border-color: black;
+  color: lightcoral;
+  border-radius: 5px;
+}
+
+#LOG {
+  width: 535px;
+  font-size: 18px;
+  height: 15px;
+  margin-left: 90px;
+  padding: 20px;
+  border: 1px solid coral;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.imageKucing img {
+  margin-left: 60px;
+  margin-top: 50px;
+  height: 25em;
+  width: 45em;
+  background-size: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+#content {
+  display: flex;
+}
+
+#log a:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#LOG a {
+  text-decoration: underline;
+}
