@@ -134,6 +134,12 @@ html {
   border-color: #coral;
   color: black;
   border-radius: 5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 .butlog1:hover {
